@@ -21,6 +21,9 @@ This version upgrades the bundled version of the dehydrated library to deal with
 ### Deprecated
 - If accessing the storage object off of the auto-ssl instance, use `auto_ssl.storage` instead of `auto_ssl:get("storage")`.
 
+### Deprecated
+- If accessing the storage object off of the auto-ssl instance, use `auto_ssl.storage` instead of `auto_ssl:get("storage")`.
+
 ### Fixed
 - Fix renewals when using the file adapter and too many certificate files were present for shell globbing ([#109](https://github.com/GUI/lua-resty-auto-ssl/issues/109))
 
